@@ -8,19 +8,8 @@ import { MenuItem } from './interfaces/menu-item';
 })
 export class AppComponent {
   title = 'treinamento-angular-junho-2024';
-  
-  items: MenuItem[] = [
-    {
-      'name': 'Home',
-      'url': '/home'
-    },
-    {
-      'name': 'Profiles',
-      'url': '/profile',
-    },
-  ]
 
-  exibirAlerta(has: string) {
+  exibirAlerta(has: string){
     alert(`O palmeiras ${has} mundial`);
   }
 }

@@ -17,7 +17,7 @@ import { HttpClientModule } from '@angular/common/http';
     HeaderComponent,
     HomeComponent,
     ProfileListComponent,
-    ProfileCreateUpdateComponent
+    ProfileCreateUpdateComponent,
   ],
   imports: [
     BrowserModule,
