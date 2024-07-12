@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MenuItem } from './interfaces/menu-item';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,19 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'treinamento-angular-junho-2024';
+  items: MenuItem[] = [
+    {
+      'name': 'Home',
+      'url': '/home'
+    },
+    {
+      'name': 'Profiles',
+      'url': '/profiles'
+    },
+  ]
+
+  exibirAlerta(has: string){
+    alert(`O palmeiras ${has} mundial`);
+  }
+
 }
